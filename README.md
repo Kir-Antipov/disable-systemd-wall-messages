@@ -38,7 +38,7 @@ sudo ./install.sh
 Alternatively, you can achieve the same results with this one-liner:
 
 ```sh
-sudo bash <(curl -Ls https://github.com/Kir-Antipov/disable-systemd-wall-messages/blob/HEAD/install.sh?raw=true)
+curl -Ls https://github.com/Kir-Antipov/disable-systemd-wall-messages/blob/HEAD/install.sh?raw=true | sudo bash -s
 ```
 
 This will:
